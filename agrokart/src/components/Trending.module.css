@@ -1,0 +1,6 @@
+.trends{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    padding-top: 10px;
+}

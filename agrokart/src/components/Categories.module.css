@@ -1,0 +1,21 @@
+.cateName{
+    margin-top: 12px;
+    color: #020e0e;
+text-align: center;
+}
+.cate{
+    margin-top: 12px;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     row-gap: 5px;
+     column-gap: 10px;
+    
+
+}
+p{
+text-align: center;
+}
+
+
+    

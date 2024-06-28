@@ -1,0 +1,17 @@
+.Cards{
+    cursor: pointer;
+}
+.anme{
+    color: aliceblue;
+ }
+
+
+.hd{
+    background-color: rgb(13, 151, 23);
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Align horizontally */
+    align-items: center;
+    margin-bottom: 0px;
+}

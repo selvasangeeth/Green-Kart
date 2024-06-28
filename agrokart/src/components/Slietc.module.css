@@ -1,0 +1,17 @@
+.car{
+border: 1px solid(0%,0%,80%);
+display: flex;
+flex-direction: row;
+gap: 50px;
+justify-content: center;
+margin-top: 20px;
+}
+.head{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+.car img{
+    height: 350px;
+    width: 350px;
+}

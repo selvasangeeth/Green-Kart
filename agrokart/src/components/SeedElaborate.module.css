@@ -1,0 +1,145 @@
+/* SeedElaborate.module.css */
+
+.abs {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    padding-top: 50px;
+    background-color: rgb(206, 206, 206);
+  }
+  
+  .imagborder {
+    border: 1px solid black;
+    margin-right: 15px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .img {
+    width: 500px;
+    height: auto;
+  }
+  
+  .elabdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .name {
+    text-align: left;
+  }
+  
+  .price {
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .offerimg {
+    align-self: flex-start;
+    width: 300px;
+    margin-top: 10px;
+  }
+  
+  .sizebuton {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .button:active {
+    background-color: #3e8e41;
+    transform: scale(0.95);
+  }
+  
+  .buton {
+    background-color: #f44336;
+  }
+  
+  .buton:hover {
+    background-color: #d32f2f;
+  }
+  
+  .buton:active {
+    background-color: #b71c1c;
+  }
+  .origin{
+    text-align: left;
+    padding-top: 5px;
+  }
+  .about{
+    margin-top: 10px;
+  }
+  /* SeedElaborate.module.css */
+
+.about {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .origin {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    margin-bottom: 10px; /* Adjust margin between paragraphs */
+  }
+  
+  .icon {
+    margin-right: 10px; /* Adjust space between icon and text */
+  }
+/* SeedElaborate.module.css */
+
+.addtocart {
+    text-align: left; /* Center align content */
+    margin-top: 20px; /* Adjust margin */
+  }
+  
+  .addbut {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transition effects */
+    
+  }
+  
+  .addbut:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .addbut:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+    transform: scale(0.95); /* Slightly shrink when clicked */
+  }
+  
+  .addbut:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.6); /* Add a custom focus outline */
+  }
+    
+ 

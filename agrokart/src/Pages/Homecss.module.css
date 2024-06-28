@@ -1,0 +1,97 @@
+*{
+ margin: 0%;
+ padding: 0%;
+    
+}
+.anme{
+    color: aliceblue;
+ }
+
+
+.hd{
+    background-color: rgb(13, 151, 23);
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Align horizontally */
+    align-items: center;
+    margin-bottom: 0px;
+}
+.cards {
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+   justify-content: center;
+   gap: 110px   ;
+   row-gap: 10px;
+}
+.heading{
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.headingt{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 12px;
+ }
+.icon{
+    margin-top:7px;
+    margin-right: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:	 white;
+    font-size: small ;
+}
+nav ul li a:hover {
+    background-color: rgb(223, 155, 28);
+    color: black;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    font-size: medium;
+}
+
+.butt{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+li{
+ display:inline;    
+ margin-right: 20px;
+}
+
+.profimg {
+    vertical-align: middle; /* Align vertically in the middle */
+    padding-right: 7px;
+    z-index: 1;
+    background-color: rgb(13, 151, 23); ;
+}
+nav ul li input[type=text]{
+    height: 25px;
+}
+.homeimg img {
+    margin-top: 0px;
+    padding: 0%;
+    width: 100%;
+    height: 500px; 
+  }
+  .trend{
+    margin-top: 15px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    background-color: rgb(159, 228, 142);
+    height: 100%;
+    width: 100%
+   
+
+    
+}
+.align {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+
+}

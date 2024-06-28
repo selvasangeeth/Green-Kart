@@ -1,0 +1,15 @@
+.foo{
+   height: 100px;
+   width: 100%;
+   background-color:  rgb(13, 151, 23);
+   color: aliceblue;
+}
+.copy{
+    padding-top: 18px;
+}
+.name{
+    text-align: center;
+    padding-top: 20px;
+
+}
+

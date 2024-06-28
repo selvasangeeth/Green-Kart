@@ -1,0 +1,12 @@
+.best {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid green;
+    margin: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.extra{
+    text-align: center;
+    padding: 20px;
+}
