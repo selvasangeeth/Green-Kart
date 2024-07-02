@@ -1,0 +1,14 @@
+.ord{
+   align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  
+    background-color: chartreuse;
+    overflow: hidden; /*prevent scroll */
+    font-size: 50px;
+    flex-direction: column;
+}
+.ord p{
+    font-size: 40px;
+}

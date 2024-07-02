@@ -9,12 +9,12 @@ const SeedDetails = () => {
 
   const seedVarieties = {
     "Tomato Seeds": [
-      { image: "https://images.meesho.com/images/products/361048029/gsk8n_512.webp", name: "A Tomato", price: "716",size:"123 gms" },
-      { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5blVOkTrfDtF24IJG1yM734CZpm2FByvovw&s", name: "B Tomato", price: "616",size:"13 gms" }
+      { image: "https://images.meesho.com/images/products/361048029/gsk8n_512.webp", name: "A Tomato", price: "716",size:"123 gms",quantity:0 },
+      { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5blVOkTrfDtF24IJG1yM734CZpm2FByvovw&s", name: "B Tomato", price: "616",size:"13 gms",quantity:0 }
     ],
     "Coriander": [
-      { image: "", name: "A Coriander", price: "716" },
-      { image: "", name: "B Coriander", price: "616" }
+      { image: "", name: "A Coriander", price: "716", quantity:0 },
+      { image: "", name: "B Coriander", price: "616" , quantity:0}
     ],
   };
 

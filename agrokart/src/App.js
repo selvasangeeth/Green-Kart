@@ -6,24 +6,30 @@ import Seller from './Pages/Seller'
 import Seedclick from './components/Seedclick'
 import SeedDetails from './Pages/SeedDetails'
 import SeedElabroateDetails from './components/SeedElabroateDetails'
-
+import Cart from './Pages/Cart'
+import {ProviderContext} from './ProviderContext'
+import Checkout from './Pages/Checkout'
+import OrderPlaced from './Pages/OrderPlaced'
 
 const App = () => {
   return (
-    <div>
+   <ProviderContext>
+       <div>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/seller" element={<Seller/>}/>
         <Route path ="/SeedClick" element ={<Seedclick/>}/>
-        <Route path='/SeedDetails' element={<SeedDetails/>}/>
-        <Route path='/SeedElaborateDetails' element={<SeedElabroateDetails/>}/>
-
+        <Route path='/SeedDetails' element={<SeedDetails/>}/> 
+        <Route path='/SeedElaborateDetails' element={<SeedElabroateDetails  />}/> 
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path= '/checkout' element={<Checkout/>}/>
+        <Route path='/orderplaced' element={<OrderPlaced/>}/>
         </Routes>
         </BrowserRouter>
-
     </div>
+   </ProviderContext>
   )
 }
 

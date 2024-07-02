@@ -1,5 +1,4 @@
 import React from 'react'
-import growp from "../assests/plantgrowthpromo.jpg"
 import growbags from "../assests/growbags.webp"
 import azzola from "../assests/azzzola.jpg"
 import excl from "../assests/excluimg3.jpeg"
